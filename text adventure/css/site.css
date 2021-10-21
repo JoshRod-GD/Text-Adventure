@@ -1,0 +1,29 @@
+body {
+  background-color:  grey;
+}
+div {
+	  padding: 25px;a
+      border-width: 19px;
+      margin: 27px;
+      background-color: #000000;
+	   border-style: ridge;
+
+    }
+
+button {
+      font-size: 36px;
+      column-count: 2;
+      margin: auto;
+      display: flex;
+}
+
+p {
+      font-size: 15;
+      color: white;
+		  }
+
+.text {
+    font-size: 27;
+    color: white;
+    text-align: center;
+}
