@@ -11,15 +11,16 @@ div {
     }
 
 button {
-      font-size: 36px;
+      font-size: 29px;
       column-count: 2;
       margin: auto;
       display: flex;
 }
 
 p {
-      font-size: 15;
+      font-size: 25px;
       color: white;
+      text-align: center;
 		  }
 
 .text {
