@@ -34,6 +34,27 @@ investigate: {
 
 },
 
+// Forest path
+forest: {
+  name: "Entering the forest path",
+    description: "When entering the forest within it you see two paths the first path is a strange straight path which gives you a strong sense of darkness lurking within it,
+     meanwhile you see a second one which shows a curved road to where you cannot see further out and on this road it has trees some dead some alive which will you take",
+
+      exitKeys: ['path1', 'path2'],
+      exitTexts: ["Straight Path",
+          "Curved Path"]
+},
+
+path1: {
+  name: "Straight Path",
+    description: " You decide to follow the path that leads straight ahead, traveling halfway through the path you hear chains begin to rattle and within the darkness you see a wraith
+            begin to float towards you, you attempt to run past it  and almost reaching the edge of the darkness you feel your body being draged back  into the forest  and the wraith grabs hold of you begining to
+            drain your life out from your body and as your life begins to fade the last thing you see is your weapons hit the ground and nothing but utter darkness",
+
+            exitKeys: ['try again'],
+            exitTexts: ["The Kingdome needs you Adventurer, Try again?"]
+},
+
 //player dies
 challenge: {
     name: "Challenge the boy",
