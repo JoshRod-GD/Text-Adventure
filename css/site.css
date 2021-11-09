@@ -1,35 +1,9 @@
-body {
-  background-color:  grey;
-}
-div {
-	  padding: 25px;a
-      border-width: 19px;
-      margin: 27px;
-      background-color: #000000;
-	   border-style: ridge;
 
-    }
 
-button {
-      font-size: 29px;
-      column-count: 2;
-      margin: auto;
-      display: flex;
-}
-
-p {
-      font-size: 25px;
-      color: white;
-      text-align: center;
-		  }
-.large {
-    font-size: 50px;
-    color: red;
-    text-align: center;
-    }
-
-.text {
-    font-size: 27;
+#output .title{
     color: white;
+    font-size: 30px;
     text-align: center;
+    margin: auto;
+    display: flex;
 }

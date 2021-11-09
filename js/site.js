@@ -3,18 +3,18 @@
 //make play again button
 
 // the beginning
- var storymode = {
+var storymode =  {
   start: {
     name: "The story begins",
-    description: "A long time ago there was a King who ruled the land with a power crystal at hand, but this
-                crystal was nothing like anyone had ever seen many say it had the power of 100 armies and could
+    description: "A long time ago, there was a King who ruled the land with a power crystal in hand, but this
+                crystal was nothing like anyone had ever seen, many say it has the power of 100 armies and could
                 somehow bend space and time with its power. The king  luckily used it for keeping the peace within
-                the lands  hoping to never have to use its power everything was peaceful within the kingdom until the day
+                the lands hoping to never have to use its power everything was peaceful within the kingdom until the day
                 the Shadow Army came crashing in and took the Kings Crystal by force. A few hours later  you are at a local pub
                 enjoying your time with the people when a knight of the kings personal guards comes in and tells you all about the
-                horrifying events that have just occured and once he hands you a letter from the king himself  it reads
+                horrifying events that have just occurred and once he hands you a letter from the king himself  it reads
                 You are the only one that can save us all please help save the kingdom and help us get our crystal home before chaos
-                can reach our kingdom!...After reading this you grab your weapons and head out on a journey to find the Shadow Army and
+                can reach our kingdom!... After reading this you grab your weapons and head out on a journey to find the Shadow Army and
                 return the crystal to the rightful owner.",
 
     exitKeys: ['horse', 'forest', 'different'],
@@ -209,30 +209,33 @@ function display(string){
           $(outputHTML).append(string);
 }
 
+function clearDisplayArea() {
+     $(outputHTML).innerHTML = "";
+  }
 //displays current path on screen
 function displayCurrentPath(currentPath) {
-          display("<p class = 'topic'>" + currentPath.name + "</p>");
-          display("<p class = 'detail'>" + currentPath.description + "</p>");
+          display("<p class = 'name'>" + currentPath.name + "</p>");
+          display("<p class = 'description'>" + currentPath.description + "</p>");
 }
 
-function displayCurrentExit(currentPath) {
-          display("<p class = 'paragraph'>The choice is yours adventureer!</p><ul class = 'button'>");
-        for(i = 0; i < currentPath;.exitKeys.length; i++) {
-        exit = "<li onClick = 'javascript:nextPath(\"" + currentPath.exitKeys[i] + "\")'>" + currentPath.exitTexts[i] + "</li>";
-        display(exit);
+function displayCurrentExits(currentPath) {
+          display("<p>The choice is yours adventurer!:</p><ul>");
+        for(i = 0; i < currentPath.exitKeys.length; i++) {
+        exitHTML = "<li onClick = 'javascript:newPath(\"" + currentPath.exitKeys[i] + "\")'>" + currentPath.exitTexts[i] + "</li>";
+        display(exitHTML);
         }
         display("</ul>")
 }
 
 
-function nextPath(newPath) {
-  currPath = newPath;
-  currentPath = rooms[currPath];
+function newPath(nexPath) {
+  currentPath = nextPath;
+  currentPathObj = storymode[currentPath];
   clearDisplayArea();
-  displayCurrentPath(currentPath);
-  displayCurrentExit(currentPath);
+  displayCurrentPath(currentPathObj);
+  displayCurrentExits(currentPathObj);
 }
 
 $("DOMContentLoaded", function(event) {
-  newRoom('start')
+  newPath('start')
 });
