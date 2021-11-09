@@ -1,37 +1,35 @@
 body {
   background-color:  grey;
 }
-
-
 div {
 	  padding: 25px;a
-      border-width: 30px;
+      border-width: 19px;
       margin: 27px;
       background-color: #000000;
 	   border-style: ridge;
 
     }
-    button {
-          font-size: 47px;
-          margin: auto;
-          display: flex;
-    }
 
-.homepage {
-        text-align: center;
-        font-size: 47px;
-        text-transform: capitalize;
-          }
-
-.paragraph {
-        color: white;
-        font-size: 25px;
-        text-align: center;
+button {
+      font-size: 29px;
+      column-count: 2;
+      margin: auto;
+      display: flex;
 }
 
-.title {
-        color: white;
-        font-size: 60px;
-        text-align: center;
+p {
+      font-size: 25px;
+      color: white;
+      text-align: center;
+		  }
+.large {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    }
 
+.text {
+    font-size: 27;
+    color: white;
+    text-align: center;
 }
