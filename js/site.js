@@ -8,14 +8,14 @@ storymode =  {
                 crystal was nothing like anyone had ever seen. Many say it has the power of 100 armies and could\
                 somehow bend space and time with its power. The king luckily used it for keeping the peace within\
                 the lands, hoping to never have to use its power. Everything was peaceful within the kingdom until the day\
-                the Shadow Army came crashing in and took the King's Crystal by force.\
+                some unknown Shadow figures came crashing in and took the King's Crystal by force.\
                 <br>\
                 <br>\
                 A few hours later, you are at a local pub\
                 enjoying your time with the people, when a knight of the king's personal guard comes in and tells you all about the\
                 horrifying events that have just occurred. He hands you a letter from the King himself. It reads,\
-                'You are the only one who has the power to defeat the Shadow Army! Please help save us by retrieving the crystal before chaos\
-                and destruction can reach our kingdom!' You grab your weapons and head out on a journey to find the Shadow Army and\
+                'You are the only one who has the power to defeat these strange Shadow figures! Please help save us by retrieving the crystal before chaos\
+                and destruction can reach our kingdom!' You grab your weapons and head out on a journey to find these Shadow figures and\
                 return the crystal to its rightful owner.",
 
     exitKeys: ['horse', 'forest', 'different'],
@@ -159,16 +159,16 @@ storymode =  {
        description: " You decide to enter in quietly and  swifty as a mouse, As you enter the portal  you decide to take out each shadow guard one by one as they are distcrated by other events happening in the room\
                       once all guards are delt with  you realized that to take out the dark knight you must use a different weapon from that of your own, you see the shadow guards had special magic infused swords and axes\
                     you battle the dark knight with one of these weapons and eventually managed to land a deadly blow onto his chest, the dark knight falls to the ground allowing you to collect the crystal,after a long hard journey\
-                    you decide to steal the dark knights horse and ride back into the kingdom.",
+                    you decide to take the dark knights horse and ride back into the kingdom.",
 
        exitKeys: ['ending'],
        exitTexts: ["Return to the kingdom!!"]
         },
 
     ending: {
-          name: "Retun of a hero!",
+          name: "Return of a hero!",
           description: " As you ride back into the kingdom enterence the people of it begin to cheer in joy that their beloved crystal is back to its rightful place, once you reach the castle gate  the king is there in the\
-                      courtyard, As you hand the crystal back to the king  he is extreamly greatful for your service to the kingdom and for it offers to you a  request to begin a adventurers guild funded by the king for many more\
+                      courtyard, As you hand the crystal back to the king  he is extreamly greatful for your service to the kingdom and for it offers to you a reward which is to begin a adventurers guild funded by the king for many more\
                       as yourself could come together and  seek out greater adventures,the king also mentioned that he would like you to lead this guild into greatness.",
 
          exitKeys: ['start'],
