@@ -8,7 +8,10 @@ storymode =  {
                 crystal was nothing like anyone had ever seen. Many say it has the power of 100 armies and could\
                 somehow bend space and time with its power. The king luckily used it for keeping the peace within\
                 the lands, hoping to never have to use its power. Everything was peaceful within the kingdom until the day\
-                the Shadow Army came crashing in and took the King's Crystal by force. A few hours later, you are at a local pub\
+                the Shadow Army came crashing in and took the King's Crystal by force.\
+                <br>\
+                <br>\
+                A few hours later, you are at a local pub\
                 enjoying your time with the people, when a knight of the king's personal guard comes in and tells you all about the\
                 horrifying events that have just occurred. He hands you a letter from the King himself. It reads,\
                 'You are the only one who has the power to defeat the Shadow Army! Please help save us by retrieving the crystal before chaos\
