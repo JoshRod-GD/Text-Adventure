@@ -1,21 +1,19 @@
-//@authors Joshua Rodriguez, Mia  , Joe Fulton, Raven ,Henry Chan
-
-//make play again button
+//@authors Joshua Rodriguez, Marisia Alcaraz , Joe Fulton, Raven Bridges-Jackson ,Henry Chan
 
 // the beginning
 storymode =  {
   start: {
-    name: "The story begins",
-    description:"A long time ago, there was a king who ruled the land witha  power crystal  at his side, this\
-                crystal was nothing like anyone had ever seen, many say it has the power of 100 armies and could\
-                somehow bend space and time with its power. The king  luckily used it for keeping the peace within\
-                the lands hoping to never have to use its power everything was peaceful within the kingdom until the day\
-                the Shadow Army came crashing in and took the Kings Crystal by force. A few hours later  you are at a local pub\
-                enjoying your time with the people when a knight of the kings personal guards comes in and tells you all about the\
-                horrifying events that have just occurred and once he hands you a letter from the king himself  it reads\
-                You are the only one that can save us all please help save the kingdom and help us get our crystal home before chaos\
-                can reach our kingdom! After reading this you grab your weapons and head out on a journey to find the Shadow Army and\
-                return the crystal to the rightful owner.",
+    name: "The story begins..",
+    description:"A long time ago, there was a king who ruled the land with a powerful crystal at his side. This\
+                crystal was nothing like anyone had ever seen. Many say it has the power of 100 armies and could\
+                somehow bend space and time with its power. The king luckily used it for keeping the peace within\
+                the lands, hoping to never have to use its power. Everything was peaceful within the kingdom until the day\
+                the Shadow Army came crashing in and took the King's Crystal by force. A few hours later, you are at a local pub\
+                enjoying your time with the people, when a knight of the king's personal guard comes in and tells you all about the\
+                horrifying events that have just occurred. He hands you a letter from the King himself. It reads,\
+                'You are the only one who has the power to defeat the Shadow Army! Please help save us by retrieving the crystal before chaos\
+                and destruction can reach our kingdom!' You grab your weapons and head out on a journey to find the Shadow Army and\
+                return the crystal to its rightful owner.",
 
     exitKeys: ['horse', 'forest', 'different'],
     exitTexts: ["Get a horse and prepare for the journey",
@@ -45,6 +43,16 @@ storymode =  {
       exitTexts: ["Investigate the shadow",
             "Ignore the shadow"]
         },
+    ignore: {
+      name: "Ignore the Shadow",
+      description: "The shadow fully forms to reveal a woman. Her glowing purple eyes tell you right away she must be a Shadow Witch. \
+                    She raises her right hand and a small diamond glows in her palm. 'I see the champion I was warned of is nothing but a coward!,\
+                    the witch screamed out. You run as fast as your feet will carry you, but a root catches your foot. As you fall you catch a \
+                    glimpse of your squire running in the distance before the shadows engulf you completely and your last breath escapes you..",
+
+      exitKeys: ['start'],
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+        },
 
     challenge: {
           name: "Challenge the boy",
@@ -53,7 +61,7 @@ storymode =  {
             	unintelligible as consciousness began to slip away from you. Who will save the kingdom now?",
 
           exitKeys: ['start'],
-          exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+          exitTexts: ["The Kingdom needs you Adventurer, try again?"]
         },
 
     investigate: {
@@ -87,7 +95,7 @@ storymode =  {
        running in the distance before the shadows engulf you completely and your last breath escapes you...",
 
       exitKeys: ['start'],
-      exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
      },
 
     home: {
@@ -119,7 +127,7 @@ storymode =  {
                 drain your life out from your body and as your life begins to fade the last thing you see is your weapons hitting the ground and nothing but utter darkness.",
 
       exitKeys: ['start'],
-      exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
     },
 
     path2: {
@@ -140,7 +148,7 @@ storymode =  {
                   example of what happens to those who attempt to tamper with them...You Are Dead.",
 
        exitKeys: ['start'],
-       exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+       exitTexts: ["The Kingdom needs you Adventurer, try again?"]
         },
 
     quietly: {

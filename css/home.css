@@ -6,12 +6,12 @@ button {
           font-size: 47px;
           margin: auto;
           display: flex;
+          font-family: 'Cinzel', serif;
+          border-radius: 10px;
     }
 li:hover {
-      text-decoration: underline;
       cursor: pointer;
-        cursor: hand;
-
+      cursor: hand;
     }
 
     .paragraph {
@@ -35,9 +35,12 @@ li:hover {
 
 }
 .description {
+        font-family: 'Quattrocento', serif;
         color: white;
         font-size: 25px;
         text-align: center;
+        letter-spacing: 1.5px;
+        line-height: 35px;
 
 }
 
@@ -55,8 +58,10 @@ li:hover {
 }
 #title {
   padding: 25px;a
-    border-width: 30px;
-    margin: 27px;
-    background-color: #000000;
-   border-style: ridge;
+  border-width: 30px;
+  border-radius: 10px;
+  margin: 27px;
+  background-color: #000000;
+  border-style: ridge;
+  font-family: 'Cinzel', serif;
 }
