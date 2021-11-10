@@ -69,4 +69,5 @@ li:hover {
   background-color: #000000;
   border-style: ridge;
   font-family: 'Cinzel', serif;
+  box-shadow: 1px 1px 30px 5px #FFCE04;
 }
