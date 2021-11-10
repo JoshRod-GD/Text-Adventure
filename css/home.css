@@ -13,6 +13,17 @@ button {
 a {
   text-decoration: none;
   color: #610202;
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+button a:hover {
+  color: #610202;
 }
 
 li:hover {
