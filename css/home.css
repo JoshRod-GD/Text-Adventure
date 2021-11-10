@@ -18,6 +18,7 @@ a {
 li:hover {
   cursor: pointer;
   cursor: hand;
+  color: #FFCE04;
 }
 
 .paragraph {
