@@ -7,9 +7,16 @@ button {
           margin: auto;
           display: flex;
     }
-   .paragraph {
+li:hover {
+      text-decoration: underline;
+      cursor: pointer;
+        cursor: hand;
+
+    }
+
+    .paragraph {
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         font-weight: bold;
 }
@@ -40,13 +47,12 @@ button {
   text-align: center;
 }
 
-li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-    cursor: hand;
-
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
-
 #title {
   padding: 25px;a
     border-width: 30px;
