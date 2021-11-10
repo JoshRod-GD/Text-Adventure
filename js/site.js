@@ -1,4 +1,4 @@
-//@authors Joshua Rodriguez, Marisia Alcaraz , Joe Fulton, Raven Bridges-Jackson ,Henry Chan
+//@authors Joshua Rodriguez, Marisia Alcaraz, Joe Fulton, Raven Bridges-Jackson, Henry Chan
 
 // the beginning
 storymode =  {
