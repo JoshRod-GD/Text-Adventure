@@ -8,22 +8,21 @@ button {
   display: flex;
   font-family: 'Cinzel', serif;
   border-radius: 10px;
+  background-color: #707172;
 }
 
 a {
   text-decoration: none;
   color: #610202;
-  animation: blinker 3s linear infinite;
+  text-shadow: 0 0 3px #FFCE04, 0 0 5px #FFCE04;
+  animation: blinker 2.5s linear infinite;
+  padding: 3px;
 }
 
 @keyframes blinker {
-  50% {
+  70% {
     opacity: 0;
   }
-}
-
-button a:hover {
-  color: #610202;
 }
 
 li:hover {
@@ -82,4 +81,8 @@ li:hover {
   border-style: ridge;
   font-family: 'Cinzel', serif;
   box-shadow: 1px 1px 30px 5px #FFCE04;
+}
+
+h1.title {
+  text-shadow: 0 0 2.5px #FFCE04, 0 0 4px #FFCE04;
 }
