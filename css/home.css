@@ -1,0 +1,88 @@
+body {
+  background-color:  #610202;
+}
+
+button {
+  font-size: 47px;
+  margin: auto;
+  display: flex;
+  font-family: 'Cinzel', serif;
+  border-radius: 10px;
+  background-color: #707172;
+}
+
+a {
+  text-decoration: none;
+  color: #610202;
+  text-shadow: 0 0 3px #FFCE04, 0 0 5px #FFCE04;
+  animation: blinker 2.5s linear infinite;
+  padding: 3px;
+}
+
+@keyframes blinker {
+  70% {
+    opacity: 0;
+  }
+}
+
+li:hover {
+  cursor: pointer;
+  cursor: hand;
+  color: #FFCE04;
+}
+
+.paragraph {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.name {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Quattrocento', serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+}
+
+.answers {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#title {
+  padding: 25px;a
+  border-width: 30px;
+  border-radius: 10px;
+  margin: 27px;
+  background-color: #000000;
+  border-style: ridge;
+  font-family: 'Cinzel', serif;
+  box-shadow: 1px 1px 30px 5px #FFCE04;
+}
+
+h1.title {
+  text-shadow: 0 0 2.5px #FFCE04, 0 0 4px #FFCE04;
+}
