@@ -233,6 +233,9 @@ storymode =  {
         exitTexts: ["The end"]
     }
 
+// MEme story branches
+
+
   }
 
   // Outputting onto page
