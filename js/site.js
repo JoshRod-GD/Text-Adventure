@@ -20,26 +20,28 @@ storymode =  {
 
     exitKeys: ['horse', 'forest', 'different'],
     exitTexts: ["Get a horse and prepare for the journey",
-                    "Follow the path leading to a forest", "The shadows went another way follow their path"]
+                    "Follow the path leading to a forest", "The shadows went another way follow their path"],
+
 
   },
 
 
-    //Horse Choice
-    horse: {
-        name: "Preparing the horse",
-        description: "As you fix your saddle onto your horse, you hear a shout in the distance, 'Master! Wait Master!'\
+//Horse Choice
+   horse: {
+    name: "Preparing the horse",
+    description: "As you fix your saddle onto your horse, you hear a shout in the distance, 'Master! Wait Master!'\
                       A young, adolescent boy  around the age of 15 runs up to you, and falls at your feet.  'Master please! Take me with you! I can help I have been\
                       training with my sword as you taught me. I will not  get in the way this time, I swear it on the great crystal'",
 
-        exitKeys: ['boy', 'challenge'],
-        exitTexts: ["Allow The boy to accompany you",
-                "Challenge the boy to a duel"]
+    exitKeys: ['boy', 'challenge'],
+    exitTexts: ["Allow The boy to accompany you",
+                "Challenge the boy to a duel"],
+
           },
 
     boy: {
-      name: "A Follower",
-      description: "Your squire excitedly grabs his belongings and asks the pub owner to borrow a horse. While he catches up to you,\
+     name: "A Follower",
+     description: "Your squire excitedly grabs his belongings and asks the pub owner to borrow a horse. While he catches up to you,\
       	you notice a strange shadow in the distance. Could it be the dust? The shadow seems to be taking shape..",
 
       exitKeys: ['investigate', 'ignore'],
@@ -231,16 +233,19 @@ storymode =  {
 
         exitKeys: ['start'],
         exitTexts: ["The end"]
-    }
-
-// MEme story branches
-
+    },
 
   }
+//music
+
+
+
 
   // Outputting onto page
   var currentPath = 1;
   var outputHTML = "#output"
+
+
 
   function display(string){
             $(outputHTML).append(string);
@@ -251,8 +256,8 @@ storymode =  {
     }
   //displays current path on screen
   function displayCurrentPath(currentPath) {
-            display("<p class = 'name'>" + currentPath.name + "</p>");
-            display("<p class = 'description'>" + currentPath.description + "</p>");
+           display("<p class = 'name'>" + currentPath.name + "</p>");
+           display("<p class = 'description'>" + currentPath.description + "</p>");
   }
 
   function displayCurrentExits(currentPath) {
@@ -262,6 +267,20 @@ storymode =  {
           display(exitHTML);
           }
           display("</ul>")
+  }
+
+//music player
+  var mySong = document.getElementById("mySong");
+  var icon = document.getElementById("icon");
+  icon.onclick = function(){
+  	if(mySong.paused){
+      mySong.play();
+      icon.src ="img/pause.png";
+    }else{
+      mySong.pause();
+      icon.src ="img/play.png";
+    }
+
   }
 
 

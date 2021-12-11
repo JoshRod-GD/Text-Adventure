@@ -19,6 +19,33 @@ a {
   padding: 3px;
 }
 
+  .images {
+    width: auto;
+    height auto;
+    padding: 25px;a
+    border-width: 30px;
+    border-radius: 10px;
+    margin: 27px;
+    background-color: #000000;
+    border-style: ridge;
+    font-family: 'Cinzel', serif;
+    box-shadow: 1px 1px 30px 5px #FFCE04;
+  }
+
+  h3 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 25px;a
+    border-width: 20px;
+    border-radius: 10px;
+    margin: 27px;
+    background-color: #000000;
+    border-style: ridge;
+
+      }
+
 @keyframes blinker {
   70% {
     opacity: 0;
@@ -85,4 +112,23 @@ li:hover {
 
 h1.title {
   text-shadow: 0 0 2.5px #FFCE04, 0 0 4px #FFCE04;
+}
+
+.music {
+  float: left;
+  margin-left: 6%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  font-size: 20px;
+}
+.music2 {
+  width: 70px;
+  height: 70px;
+}
+#icon {
+  width: 80px
+  cursor: pointer;
 }
