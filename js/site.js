@@ -21,7 +21,7 @@ storymode =  {
     exitKeys: ['horse', 'forest', 'different'],
     exitTexts: ["Get a horse and prepare for the journey",
                     "Follow the path leading to a forest", "The shadows went another way follow their path"],
-
+    image:"img/crystal.png"
 
   },
 
@@ -36,7 +36,7 @@ storymode =  {
     exitKeys: ['boy', 'challenge'],
     exitTexts: ["Allow The boy to accompany you",
                 "Challenge the boy to a duel"],
-
+    image:"img/horse.png"
           },
 
     boy: {
@@ -46,7 +46,8 @@ storymode =  {
 
       exitKeys: ['investigate', 'ignore'],
       exitTexts: ["Investigate the shadow",
-            "Ignore the shadow"]
+            "Ignore the shadow"],
+      image:"img/squire.png"
         },
     ignore: {
       name: "Ignore the Shadow",
@@ -56,7 +57,8 @@ storymode =  {
                     glimpse of your squire running in the distance before the shadows engulf you completely and your last breath escapes you..",
 
       exitKeys: ['start'],
-      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"],
+      image:"img/dead.png"
         },
 
     challenge: {
@@ -66,21 +68,23 @@ storymode =  {
             	unintelligible as consciousness began to slip away from you. Who will save the kingdom now?",
 
           exitKeys: ['start'],
-          exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+          exitTexts: ["The Kingdom needs you Adventurer, try again?"],
+          image:"img/dead.png"
         },
 
     investigate: {
       name: "Investigating the shadow",
-      description: "The shadow fully forms to reveal a woman. Her glowing purple eyes tell you right away she must be a Shadow Witch.\
+      description: "The shadow fully forms to reveal a woman in front of her hut. Her glowing purple eyes tell you right away she must be a Shadow Witch.\
       	 She raises her right hand and a small diamond glows in her palm.",
 
       exitKeys: ['callout', 'flee'],
-      exitTexts: ["Call out to the witch", "Flee with your squire"]
+      exitTexts: ["Call out to the witch", "Flee with your squire"],
+      image:"img/witch.png"
     },
 
     callout: {
       name: "Calling the Witch",
-      description: "'You there!', you call out to the witch. Could the shining gem be the King's crystal? \
+      description: "Standing not far from the witch and her hut you stand your ground and say 'You there!', As you call to her you could see the shining gem which then you think could this  be the King's crystal? \
       The witch hisses and responds, 'How dare you speak to me you lowly human!' You draw your sword and charge toward the witch.\
        The hilt of your sword is warm and with a quick glance you notice a blue glow emanating from the entire sword.\
         This must be why you were the chosen one! Surely this power was meant to defeat this evil witch and retrieve the King's crystal. \
@@ -90,7 +94,8 @@ storymode =  {
 
 
       exitKeys: ['home'],
-      exitTexts: ["Return to the Kingdom with the Crystal"]
+      exitTexts: ["Return to the Kingdom with the Crystal"],
+      image:"img/hut.png"
     },
 
     flee: {
@@ -100,7 +105,8 @@ storymode =  {
        running in the distance before the shadows engulf you completely and your last breath escapes you...",
 
       exitKeys: ['start'],
-      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"],
+      image:"img/dead.png"
      },
 
     home: {
@@ -110,7 +116,8 @@ storymode =  {
                     riches for him and his family as well as his own title as knight in training where he will continue to serve under you as an apprentice.",
 
       exitKeys: ['start'],
-      exitTexts: ["The end"]
+      exitTexts: ["The end"],
+      image:"img/home.png"
      },
 
 
@@ -122,7 +129,8 @@ storymode =  {
 
       exitKeys: ['path1', 'path2'],
       exitTexts: ["Straight Path",
-              "Curved Path"]
+                  "Curved Path"],
+      image:"img/path.png"
     },
 
     path1: {
@@ -132,7 +140,8 @@ storymode =  {
                 drain your life out from your body and as your life begins to fade the last thing you see is your weapons hitting the ground and nothing but utter darkness.",
 
       exitKeys: ['start'],
-      exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+      exitTexts: ["The Kingdom needs you Adventurer, try again?"],
+      image:"img/dead.png"
     },
 
     path2: {
@@ -143,7 +152,8 @@ storymode =  {
                    is behind that portal but you can also see inside there are  many guards behind it along with a dark knight at the end of the large room  'what is the best plan?' you think to yourself...",
 
       exitKeys: ['loud', 'quietly'],
-      exitTexts: ["Go into the portal loud", "Go into the portal quietly"]
+      exitTexts: ["Go into the portal loud", "Go into the portal quietly"],
+      image:"img/knight.png"
     },
 
     loud: {
@@ -153,7 +163,8 @@ storymode =  {
                   example of what happens to those who attempt to tamper with them...You Are Dead.",
 
        exitKeys: ['start'],
-       exitTexts: ["The Kingdom needs you Adventurer, try again?"]
+       exitTexts: ["The Kingdom needs you Adventurer, try again?"],
+       image:"img/dead.png"
         },
 
     quietly: {
@@ -164,7 +175,8 @@ storymode =  {
                     you decide to take the dark knights horse and ride back into the kingdom.",
 
        exitKeys: ['ending'],
-       exitTexts: ["Return to the kingdom!!"]
+       exitTexts: ["Return to the kingdom!!"],
+       image:"img/stealth.png"
         },
 
     ending: {
@@ -174,7 +186,8 @@ storymode =  {
                       as yourself could come together and  seek out greater adventures,the king also mentioned that he would like you to lead this guild into greatness.",
 
          exitKeys: ['start'],
-         exitTexts: ["The end"]
+         exitTexts: ["The end"],
+         image:"img/home.png"
       },
 
 
@@ -187,7 +200,8 @@ storymode =  {
                       While walking through the shortcut, you are ambushed by two dark sorcerers, materialized from shadows, who know powerful magic. They cast a spell towards you, how will you act?",
 
          exitKeys: ['block', 'dodge'],
-         exitTexts: ["Block the magic spell","Dodge the magic spell"]
+         exitTexts: ["Block the magic spell","Dodge the magic spell"],
+         image:"img/sorcerer.png"
       },
 
     block: {
@@ -195,7 +209,8 @@ storymode =  {
             description: "You raise your shield and attempt to block the magic spell. It is no good, the spell goes right through your shield, engulfing you in darkness and destroying you. ",
 
             exitKeys: ['start'],
-            exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+            exitTexts: ["The Kingdom needs you Adventurer, Try again?"],
+            image:"img/dead.png"
         },
 
     dodge: {
@@ -204,7 +219,8 @@ storymode =  {
                       way to their lair, where the crystal is! 'How stupid of them' you thought! ",
 
           exitKeys: ['run', 'wayout'],
-          exitTexts: ["Take the crystal and run!!", "Think of a way out"]
+          exitTexts: ["Take the crystal and run!!", "Think of a way out"],
+          image:"img/run.png"
           },
 
     run: {
@@ -212,7 +228,8 @@ storymode =  {
         description: "You draw your weapon and swing at the sorcerers, their body phases right through the sword. They laugh at you darkly, summoning evil lightning to banish you to the underworld. You have been banished.",
 
         exitKeys: ['start'],
-        exitTexts: ["The Kingdom needs you Adventurer, Try again?"]
+        exitTexts: ["The Kingdom needs you Adventurer, Try again?"],
+        image:"img/dead.png"
           },
 
     wayout: {
@@ -223,7 +240,8 @@ storymode =  {
                     The crystal, grasped in your hand, is safe, for now. Let's head to the castle and tell the king the good news.",
 
          exitKeys: ['ending3'],
-         exitTexts: ["Return to the kingdom"]
+         exitTexts: ["Return to the kingdom"],
+         image:"img/bolder.png"
     },
 
     ending3: {
@@ -232,11 +250,12 @@ storymode =  {
                     king himself decided that they would have a feast as a celebration  honoring you  and the return of the crystal.",
 
         exitKeys: ['start'],
-        exitTexts: ["The end"]
+        exitTexts: ["The end"],
+        image:"img/home.png"
     },
 
   }
-//music
+
 
 
 
@@ -258,6 +277,7 @@ storymode =  {
   function displayCurrentPath(currentPath) {
            display("<p class = 'name'>" + currentPath.name + "</p>");
            display("<p class = 'description'>" + currentPath.description + "</p>");
+           display("<img class= 'logo' src=" + currentPath.image + ">");
   }
 
   function displayCurrentExits(currentPath) {
@@ -282,6 +302,7 @@ storymode =  {
     }
 
   }
+
 
 
   function newPath(nextPath) {
