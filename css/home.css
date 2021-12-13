@@ -140,8 +140,9 @@ h1.title {
   font-size: 20px;
 }
 .music2 {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
 }
 #icon {
   width: 80px
