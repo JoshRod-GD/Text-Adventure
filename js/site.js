@@ -176,7 +176,7 @@ storymode =  {
 
        exitKeys: ['ending'],
        exitTexts: ["Return to the kingdom!!"],
-       image:"img/stealth.png"
+       image:"img/stealth.gif"
         },
 
     ending: {
