@@ -117,7 +117,7 @@ storymode =  {
 
       exitKeys: ['start'],
       exitTexts: ["The end"],
-      image:"img/home.png"
+      image:"img/home.gif"
      },
 
 
@@ -187,7 +187,7 @@ storymode =  {
 
          exitKeys: ['start'],
          exitTexts: ["The end"],
-         image:"img/home.png"
+         image:"img/home.gif"
       },
 
 
@@ -201,7 +201,7 @@ storymode =  {
 
          exitKeys: ['block', 'dodge'],
          exitTexts: ["Block the magic spell","Dodge the magic spell"],
-         image:"img/sorcerer.png"
+         image:"img/Socerer.png"
       },
 
     block: {
@@ -220,7 +220,7 @@ storymode =  {
 
           exitKeys: ['run', 'wayout'],
           exitTexts: ["Take the crystal and run!!", "Think of a way out"],
-          image:"img/run.png"
+          image:"img/dodge.gif"
           },
 
     run: {
@@ -241,7 +241,7 @@ storymode =  {
 
          exitKeys: ['ending3'],
          exitTexts: ["Return to the kingdom"],
-         image:"img/bolder.png"
+         image:"img/bolder.gif"
     },
 
     ending3: {
@@ -251,7 +251,7 @@ storymode =  {
 
         exitKeys: ['start'],
         exitTexts: ["The end"],
-        image:"img/home.png"
+        image:"img/home.gif"
     },
 
   }
